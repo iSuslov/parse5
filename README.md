@@ -1,3 +1,13 @@
+Parse 5 with a new option `booleanAttributes` which can be used like this:
+
+```
+parse5.serialize(document, {booleanAttributes: true})
+```
+to avoid this `<checkbox checked>` turning into this `<checkbox checked="">`
+
+<hr>
+
+
 <p align="center">
     <a href="https://github.com/inikulin/parse5">
         <img src="https://raw.github.com/inikulin/parse5/master/docs/logo.png" alt="parse5" />
